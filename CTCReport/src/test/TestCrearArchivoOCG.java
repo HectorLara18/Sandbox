@@ -5,16 +5,19 @@
  */
 package test;
 
-import application.CrearArchivos;
+import static application.CrearArchivos.*;
+
+import static application.CrearArchivos.crearArchivo;
 
 /**
  *
- * @author hecto
+ * @author hector
  */
 public class TestCrearArchivoOCG {
+
     public static void main(String[] args) {
         String directorio = "C:\\Users\\hecto\\Repositorio\\OCGLogs\\OCG";
-        CrearArchivos prueba = new CrearArchivos(); 
-        prueba.crearArchivo(directorio,"1","prueba", "prueba");
+        //CrearArchivos prueba = new CrearArchivos(); 
+        crearArchivo(directorio, "1", "prueba2", "prueba2");
     }
 }

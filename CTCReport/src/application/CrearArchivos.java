@@ -14,7 +14,7 @@ import java.util.*;
  */
 public class CrearArchivos {
     
-    public void crearArchivo(String directorio, String ocg, String valor, String fecha){
+    public static void crearArchivo(String directorio, String ocg, String valor, String fecha){
         
         String path = directorio + "_" + "OCG" + ocg + "_" + valor + "_" + fecha + ".txt"; 
         
